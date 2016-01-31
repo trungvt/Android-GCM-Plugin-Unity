@@ -1,0 +1,10 @@
+#!/usr/bin/sh
+
+SCRIPT_PATH="Assets/Editor"
+
+# FOR EEaf REWARD SDK
+# $SCRIPT_PATH/PostprocessBuildPlayerForEeafSDK.py $@ 2> error.log
+
+# FOR LOBI SDK
+#$SCRIPT_PATH/PostprocessBuildPlayerForNakamap.py $@ 2> error.log
+$SCRIPT_PATH/PostprocessBuildPlayerForGCM.py $@ 2> error.log
